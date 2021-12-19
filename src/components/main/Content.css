@@ -1,0 +1,16 @@
+.app-box{
+    position: absolute;
+    left:0;
+    top: 1rem;
+    right: 0;
+    margin: auto;
+    border:0.5rem solid dodgerblue;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+}
+.lower-box{
+    display:flex;
+    justify-content: center;
+}

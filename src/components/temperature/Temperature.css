@@ -1,0 +1,17 @@
+.temp-box{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.temp-num{
+    font-weight: bold;
+    font-size: 6rem;
+    color: #313E57;
+}
+.temp-icon{
+    color:#313E57;
+    margin-top: 1.5rem;
+    height:2.5rem;
+    width: 2.5rem;
+    display:inline;
+}

@@ -1,0 +1,13 @@
+.sun-box{
+    width:8rem;
+    height: 10rem;
+    margin:4rem 1rem;
+}
+.sun-icon{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 auto;
+}
+.sun-box p{
+    margin-top: 0.5rem;
+}
