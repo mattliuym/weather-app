@@ -1,13 +1,20 @@
 import React from "react";
 import {BsSunrise} from "react-icons/bs";
 import './Sunrise.css';
-interface props{};
-export const Sunrise:React.FC<props>=()=>{
+import {Skeleton} from "@chakra-ui/react";
+interface props{
+    value:string,
+    isLoading:boolean
+};
+export const Sunrise:React.FC<props>=(value,isLoading)=>{
     return(
-        <div className={"sun-box"}>
-            <BsSunrise className={"sun-icon"}/>
-            <p>Sunrise</p>
-            <p>05:30</p>
-        </div>
+        <Skeleton className={'sun-box'} isLoaded={!value.isLoading}>
+            <div className={"sun-box"}>
+                <BsSunrise className={"sun-icon"}/>
+                <p>Sunrise</p>
+                <p>{value.value}</p>
+            </div>
+        </Skeleton>
+
     );
 }
