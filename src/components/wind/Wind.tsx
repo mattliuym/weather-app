@@ -5,8 +5,8 @@ import {Skeleton} from "@chakra-ui/react";
 interface props{
     value:string
     isLoading:boolean
-};
-export const Wind:React.FC<props>=(value,isLoading)=>{
+}
+export const Wind:React.FC<props>=(value)=>{
     return(
         <Skeleton className={'win-box'} isLoaded={!value.isLoading}>
             <div className={'win-box'}>

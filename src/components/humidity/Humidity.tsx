@@ -6,8 +6,8 @@ import {Skeleton} from "@chakra-ui/react";
 interface props{
     value:string,
     isLoading:boolean
-};
-export const Humidity:React.FC<props>=(value,isLoading)=>{
+}
+export const Humidity:React.FC<props>=(value)=>{
     return(
     <Skeleton className={'hum-box'} isLoaded={!value.isLoading}>
         <div className={'hum-box'}>
