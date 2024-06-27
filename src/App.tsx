@@ -1,17 +1,16 @@
-import React from 'react';
-import './App.css';
-import { ChakraProvider } from '@chakra-ui/react'
-import {Dropdown} from "./components/dropdown/Dropdown";
-import {Content} from "./components/main/Content";
+import { ChakraProvider } from "@chakra-ui/react";
+import React from "react";
+import "./App.css";
+import { Content } from "./components/main/Content";
 
 interface Props {}
 
-const App:React.FC<Props>=()=> {
+const App: React.FC<Props> = () => {
   return (
     <ChakraProvider>
-       <Content/>
+      <Content />
     </ChakraProvider>
   );
-}
+};
 
 export default App;
